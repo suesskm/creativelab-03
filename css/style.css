@@ -1,0 +1,38 @@
+body{
+    margin:0;
+}
+canvas{
+    display:block;
+}
+
+#custom-cursor{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-image: url('../media/images/noun-cursor-1010278.png');
+    background-size: cover;
+    pointer-events: none;
+}
+
+#hello{
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-15%);
+    color: rgb(117, 245, 162);
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: brown;
+}
+
+#image{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    background-color: rgb(117, 245, 162);
+}
